@@ -1,0 +1,416 @@
+/* 
+    Document   : media
+    Created on : Sep 29, 2016, 11:46:35 AM
+    Author     : Salih
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@media (max-width: 320px) {
+    .footer-image img {
+        width: 100%;
+    }
+    .button_scroll_up {
+        bottom: 20px;
+    }
+    #header .nav > li > a {
+        font-size: 20px;
+    }
+    .back-link {
+        margin-left: 75px!important;
+        width: 154px;
+    }
+    .customer_care_content, .server-content, .security-content, .angebots-content {
+        margin-left: 10px!important;
+        margin-right: 10px!important;
+    }
+    #banner {
+        height: 260px!important;
+    }
+    .mobile_fs h2 {
+        font-size: 12px!important;
+    }
+    .btn-back-link {
+        margin-left: 11px;
+    }
+}  
+@media (min-width: 320px) and (max-width: 563px){
+    .characteristics {
+        margin-top: 15px!important;
+        margin-bottom: 30px!important;
+        margin-right: 4px!important;
+        margin-left: 25px!important;
+    }
+    .mobile_fs h2 {
+        font-size: 12px!important;
+    }
+}
+@media (min-width: 500px) and (max-width: 560px){
+}
+@media (max-width: 768px) {
+    /* --------------------------------------------
+        TYPOGRAPHY
+    -------------------------------------------- */
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    p, label {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .button_scroll_up {
+        right: 7px; 
+        bottom: 5px;   
+    }
+    .button_scroll_up img{
+        height: 50px;    
+    }
+    #header .nav,
+    #header .nav > li{
+        display: block;
+    }
+    #header .nav > li > a{
+        line-height: 30px;
+    }
+    #header .nav > li{
+        margin: 0;
+    }
+    body#footerbottom #wrapper-page {
+        min-height: auto;
+        height: auto !important;
+        margin: 0;
+        border-bottom: 0;
+    }
+    body#footerbottom #footer {
+        display: block;
+        clear: both;
+        height: auto;
+        text-align: center;
+    }
+    #footer .navf {
+        margin: 15px 0;
+    }
+    #footer .navf > li {
+        display: block;
+    }
+    body #wrapper-page .container .my-btn, 
+    body #footer .container .my-btn {
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 38px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        text-align: center;
+    }
+    .dropdown-menu > li > a {
+        margin: 0;
+        font-size: 13px;
+    }
+    .statick-background {
+        background-attachment: scroll !important;
+    }
+    .navbar-brand {
+        width: 100px;
+    }
+    .intro-content:before {
+        height: 560px;
+        margin-top: -232px;
+        content: "";
+    }   
+    .navbar-brand{
+        margin-top: 23px;
+    }
+    i.fa.fa-angle-right {
+        margin-left: 0;
+    }
+    i.fa.fa-angle-left {
+        margin-right: 0;
+    }
+    .page-title {
+        display: none;    
+    }
+    .controll_text {
+        display: none;
+    }
+    .back-link {
+        margin-left: 295px;
+    }
+    .pg-title {
+        display: none
+    }
+    .top110 {
+        top: 75px;
+        right: -60px;
+    }  
+    .mt200 {
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+    .partner img {
+        padding-top: 20px;
+    }
+    #header .nav > li > a {
+        font-size: 20px;
+    }
+    .footer-info {
+        padding-left: 0px;
+    }
+    .customer_care_content, .server-content, .security-content, .angebots-content {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .customer-title {
+        padding-bottom: 25px;
+    }
+    .mobile_image img {
+        margin-bottom: 50px;
+    }
+    .yellow-box {
+        bottom: 0px;
+    }
+    .server-img img {
+        height: 300px;
+    }
+    .customer-image img {
+        height: 300px;
+    }
+    .element {
+        width: 100%!important;
+    }
+    .characteristics {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+    .partner {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .mobile_fs h2 {
+        font-size: 18px;
+    }
+    #banner {
+        height: 350px;
+    }
+    .btn-back-link {
+        margin-left: 0px; 
+    }
+}
+@media (max-width: 768px) {
+    .btn-back-link {
+        margin-left: -10px; 
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    /* --------------------------------------------
+        TYPOGRAPHY
+    -------------------------------------------- */
+    h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    h2 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    p, label {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #header .nav > li {
+        margin: 0 5px;
+    }
+    #header .nav > li > a {
+        font-size: 12px;
+    }
+    #header .nav.socials ul > li > a.my-btn {
+        margin: 15px 0 0;
+    }
+    body #wrapper-page .container .my-btn, 
+    body #footer .container .my-btn{
+        font-size: 14px;
+        padding: 0px 10px;
+        line-height: 38px;
+    }
+    #footer .slogan{
+        font-size: 16px;
+    }
+    #footer .navf > li > a{
+        font-size: 12px;
+        margin: 0 5px;
+    }
+    #banner {
+        height: 350px;
+    }
+    .navbar-brand{
+        width: 140px;
+        margin-top: 23px;
+    }
+    .navbar-brand>img {
+        margin-top: 5px;
+    }
+    #header .nav > li > a {
+        line-height: 80px;
+    }
+    .back-link {
+        margin-left: 285px;
+    }
+    .footer-info {
+        margin-top: 6px;
+        padding-left: 0; 
+    }
+    .button_scroll_up {
+        bottom: 30px;
+        right: 40px;
+        cursor: pointer;
+    }
+    .page-title {
+        top: 33%;
+    }
+    i.fa.fa-angle-right {
+        margin-left: 0;
+    }
+    i.fa.fa-angle-left {
+        margin-right: 0;
+    }
+    .mt200 {
+       margin-top: 130px!important;
+    }
+    .intro-content:before {
+        height: 480px;
+    }
+    .yellow-box {
+        position: absolute;
+        bottom: -96px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* --------------------------------------------
+        TYPOGRAPHY
+    -------------------------------------------- */
+    h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    h5 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    h6 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    p, label {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #header .nav > li > a {
+        font-size: 12px;
+    }
+    body #wrapper-page .container .my-btn, 
+    body #footer .container .my-btn{
+        font-size: 16px;
+        padding: 0px 20px;
+        line-height: 48px;
+    }
+    #footer .slogan{
+        font-size: 22px;
+    }
+    #footer .navf > li > a{
+        font-size: 16px;
+        margin: 0 7px;
+    }
+    .navbar-brand{
+        width: 140px;
+    }
+    .navbar-brand>img {
+        margin-top: 5px;
+    }
+    #header .nav > li > a {
+        line-height: 80px;
+    }
+    .back-link {
+        margin-left: 395px;
+    }
+    .footer-info {
+        margin-top: 70px;
+        padding-left: 120px;
+    }
+    i.fa.fa-angle-right {
+        margin-left: 0;
+    }
+    i.fa.fa-angle-left {
+        margin-right: 0;
+    }
+    .page-title {
+        top: 30%;
+    }
+    #banner {
+        height: 400px;
+    }
+    .mt200 {
+        margin-top: 110px;
+    }
+}
